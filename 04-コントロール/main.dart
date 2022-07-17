@@ -20,21 +20,6 @@ void main(List<String> args) {
   }
   print('------------------------');
 
-  List listTemp1 = ['a','b','c'];
-  for (int i = 0; i < listTemp1.length; i++) {
-    print(listTemp1[i]);
-  }
-  print('------------------------');
-
-  List listTemp2 = [
-    {'username' : 'UserNmae1','gender' : 'Male'},
-    {'username' : 'UserNmae2','gender' : 'Male'},
-    {'username' : 'UserNmae3','gender' : 'Male'},
-  ];
-  for (var item in listTemp2) {
-    print(item['username']);
-  }
-  print('------------------------');
 
   
 
